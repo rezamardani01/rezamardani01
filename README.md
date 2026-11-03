@@ -4,6 +4,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=520&lines=Hi+there%2C+I'm+Reza;Always+learning%2C+always+building;Turning+ideas+into+code" alt="Typing SVG" />
 
+<br/>
+
+<img src="https://img.shields.io/github/followers/rezamardani01?style=for-the-badge&logo=github&color=36BCF7&labelColor=0d1117" alt="Followers" />
+<img src="https://komarev.com/ghpvc/?username=rezamardani01&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views" />
+
 </div>
 
 ## About me
@@ -14,12 +19,21 @@
 
 💡 Always happy to learn something new
 
-## GitHub stats
+## My contribution snake 🐍
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rezamardani01&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rezamardani01&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rezamardani01/rezamardani01/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rezamardani01/rezamardani01/output/github-snake.svg" />
+<img alt="Contribution snake" src="https://raw.githubusercontent.com/rezamardani01/rezamardani01/output/github-snake.svg" />
+</picture>
+
+</div>
+
+## Streak
+
+<div align="center">
 
 <img src="https://streak-stats.demolab.com?user=rezamardani01&theme=tokyonight&hide_border=true" alt="Streak stats" />
 
