@@ -1,1 +1,56 @@
-{"name":"Generate Snake","on":{"schedule":[{"cron":"0 */12 * * *"}],"workflow_dispatch":{},"push":{"branches":["main"]}},"permissions":{"contents":"write"},"jobs":{"generate":{"runs-on":"ubuntu-latest","steps":[{"uses":"Platane/snk/svg-only@v3","with":{"github_user_name":"${{ github.repository_owner }}","outputs":"dist/github-snake.svg\ndist/github-snake-dark.svg?palette=github-dark"}},{"uses":"crazy-max/ghaction-github-pages@v3.1.0","with":{"target_branch":"output","build_dir":"dist"},"env":{"GITHUB_TOKEN":"${{ secrets.GITHUB_TOKEN }}"}}]}}}
+name: Generate profile activity
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity-output
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Draw contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Draw contribution calendars
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh api graphql -f login="$GITHUB_REPOSITORY_OWNER" -f query='
+            query($login: String!) {
+              user(login: $login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    weeks { contributionDays { date contributionCount contributionLevel } }
+                  }
+                }
+              }
+            }' --jq '.data.user.contributionsCollection.contributionCalendar.weeks' > "$RUNNER_TEMP/calendar.json"
+          python3 scripts/render_activity.py dist < "$RUNNER_TEMP/calendar.json"
+
+      - name: Publish artwork
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
