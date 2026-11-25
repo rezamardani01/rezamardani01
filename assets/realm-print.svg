@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464 198" font-family="Arial, sans-serif"><rect width="464" height="198" rx="14" fill="#efab8d"/><circle cx="395" cy="54" r="88" fill="none" stroke="#272730" stroke-opacity=".18"/><g transform="translate(300 2) scale(.84)" fill="#efab8d" stroke="#28252d" stroke-width="4" stroke-linejoin="round"><path d="m18 122 40-68 24 33 31-56 59 91z"/><path d="m89 77 24-46 21 37-14-7-9 10-8-9z"/><circle cx="55" cy="31" r="13"/></g><g fill="#28252d"><text x="24" y="38" font-family="monospace" font-size="14">GAME / MULTIPLAYER</text><text x="22" y="132" font-family="Georgia,serif" font-weight="bold" font-size="44">Eternal Realm</text><path d="M24 148h416" stroke="#28252d" opacity=".5"/><text x="24" y="178" font-size="20">Persian multiplayer RPG on Bale</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="217" viewBox="0 0 416 217" role="img" aria-labelledby="title desc">
+  <title id="title">Eternal Realm</title>
+  <desc id="desc">Multiplayer RPG. A Persian group-chat game with quests and guilds.</desc>
+  <style>
+    :root { --paper: #f3c5ab; --shade: #bd806a; --ink: #593d40; --light: #ffdfb2; }
+    .tag { font: bold 16px Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+    .copy { font: 21px Arial, Helvetica, sans-serif; }
+    @media (max-width: 285px) { .tag { font-size: 17px; } .copy { font-size: 23px; } }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x="3" y=".7" width="410" height="211.6" rx="14"/></clipPath>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".85" fill="#593d40" opacity=".24"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="416" height="214" fill="#f3c5ab"/>
+    <ellipse cx="374" cy="10" rx="119" ry="94" fill="#ebb494"/>
+    <path d="M276 0h140v87c-67-1-116-24-140-87Z" fill="url(#dots)"/>
+    <path d="M253 0c3 49 48 95 118 102" fill="none" stroke="#593d40" stroke-opacity=".22"/>
+    <path d="M23 35h12" stroke="#593d40" stroke-width="2.6"/>
+    <text x="43" y="40" class="tag" fill="#593d40">MULTIPLAYER RPG</text>
+    <g transform="translate(268 6)" stroke="#593d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="99" cy="22" r="16" fill="var(--light)" stroke="none"/>
+      <path d="m-3 77 26-34 15 14 31-36 29 35 11-12 30 34" fill="var(--shade)" stroke="var(--shade)"/>
+      <path d="m52 41 17-20 12 15-9-4-6 7-5-3Z" fill="var(--light)" stroke="none"/>
+      <path d="m14 82 16-17 27-6 20 5 20-9 32 24" fill="var(--paper)"/>
+      <path d="M41 66V48h9v5h7v-5h8v18m0-1V34h6v6h6v-6h6v32m0-5V47h7v5h6v-5h6v21" fill="var(--light)"/>
+      <path d="M73 34V10l20 4-20 7" fill="var(--ink)"/>
+      <path d="M71 66V55a4 4 0 0 1 8 0v12" fill="var(--ink)"/>
+      <path d="M9 86q16-16 40-16l20-4m19 3q24-2 42 10M30 87q23-12 40-13m21 2 22 4" fill="none"/>
+    </g>
+    <text x="22" y="122" fill="#25232a" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="-1.9">Eternal Realm</text>
+    <path d="M24 139h368" stroke="#593d40" stroke-opacity=".30"/>
+    <g class="copy" fill="#2f2c31"><text x="24" y="167">A Persian group-chat game</text><text x="24" y="193">with quests and guilds.</text></g>
+    <g fill="none" stroke="#593d40"><circle cx="373" cy="174" r="18" stroke-opacity=".45"/><path d="m367 180 12-12m-11 0h11v11" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+  <rect x="3" y=".7" width="410" height="211.6" rx="14" fill="none" stroke="#593d40" stroke-opacity=".35"/>
+</svg>

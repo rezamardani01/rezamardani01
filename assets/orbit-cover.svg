@@ -1,22 +1,42 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 332" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="241" viewBox="0 0 840 241" role="img" aria-labelledby="title desc">
   <title id="title">Reza Mardani · Backend developer</title>
+  <desc id="desc">A copper planet with an engraved surface and a pale green orbit.</desc>
   <defs>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#655861"/></pattern>
-    <clipPath id="frame"><rect width="960" height="332" rx="18"/></clipPath>
+    <linearGradient id="sky" x2="1" y2=".2" gradientUnits="objectBoundingBox"><stop stop-color="#211f29"/><stop offset="1" stop-color="#342934"/></linearGradient>
+    <linearGradient id="surface" x1="0" y1=".2" x2="1" y2=".78"><stop stop-color="#ffcb98"/><stop offset=".52" stop-color="#e28d70"/><stop offset="1" stop-color="#ad5960"/></linearGradient>
+    <pattern id="stars" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".85" fill="#a18b91" opacity=".52"/></pattern>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#553241"/></pattern>
+    <clipPath id="disc"><circle r="76.5"/></clipPath>
+    <clipPath id="frame"><rect width="840" height="241" rx="15"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="960" height="332" fill="#211e28"/>
-    <rect x="560" width="400" height="332" fill="url(#grid)"/>
-    <g transform="translate(738 169) rotate(-25)" fill="none" stroke="#ff9979" stroke-width="2">
-      <ellipse rx="118" ry="118"/><ellipse rx="94" ry="118"/><ellipse rx="63" ry="118"/><ellipse rx="27" ry="118"/>
-      <ellipse rx="118" ry="80"/><ellipse rx="118" ry="43"/><path d="M-118 0h236"/>
-      <ellipse rx="171" ry="33" stroke="#d7e891" transform="rotate(8)"/>
-      <circle cx="168" cy="22" r="6" fill="#d7e891" stroke="none"/>
+    <rect width="840" height="241" fill="url(#sky)"/>
+    <path d="M487 0H840V241H523Z" fill="url(#stars)"/>
+    <g fill="none" stroke="#86717d">
+      <circle cx="662" cy="120" r="99" stroke-dasharray="1 6"/>
+      <path d="M526 57h10m-5-5v10M770 178h8m-4-4v8M586 206h6m-3-3v6" stroke="#d5c1ad"/>
+      <path d="M514 187q135-14 263-152" opacity=".54" stroke-dasharray="3 5"/>
     </g>
-    <g fill="#fff2de" font-family="Georgia, serif" font-size="84" letter-spacing="-4">
-      <text x="48" y="132">Reza</text><text x="48" y="213">Mardani<tspan fill="#ff9979">.</tspan></text>
+    <g transform="translate(662 120) rotate(-19)">
+    <ellipse rx="136" ry="38" fill="none" stroke="#cabbab" stroke-width="1.5"/>
+    <circle r="77" fill="url(#surface)" stroke="#ffd1af" stroke-width="1.5"/>
+    <g clip-path="url(#disc)">
+      <path d="M-22-88C50-64 51 54-9 87H91V-90Z" fill="#803f4e" opacity=".55"/>
+      <path d="M-9-82C55-46 54 42-3 84H90V-84Z" fill="url(#grain)"/>
+      <g fill="none" stroke="#673b49" stroke-width="1.4" opacity=".82">
+        <path d="M-78-52Q-17-17 75-46M-83-32Q-13 9 82-24M-83-11Q-9 35 84-5M-83 10Q-7 57 80 17M-79 32Q-1 75 74 36M-65 53Q6 88 65 52"/>
+        <path d="M-25-78C-65-35-67 24-35 71M-11-80C-40-45-44 39-16 80M5-79C-7-44-12 40 4 80M19-78C35-41 35 45 22 78M31-74C73-37 68 34 43 65"/>
+      </g>
+      <path d="M-68-24Q-60-48-36-63" fill="none" stroke="#ffe0b8" stroke-width="3" stroke-linecap="round" opacity=".8"/>
     </g>
-    <path d="M52 252h36" stroke="#d7e891" stroke-width="3"/>
-    <text x="102" y="259" fill="#d7e891" font-family="monospace" font-size="18" letter-spacing="2">BACKEND DEVELOPER</text>
+    <path d="M-136 0C-136 22-75 38 0 38S136 22 136 0" fill="none" stroke="#302731" stroke-width="5.5"/>
+    <path d="M-136 0C-136 22-75 38 0 38S136 22 136 0" fill="none" stroke="#dfeca8" stroke-width="2.6"/>
+    <circle cx="103" cy="25" r="5" fill="#dfeca8" stroke="#29252e" stroke-width="1.7"/>
+    </g>
+    <path d="M39 61h25" stroke="#efad8d" stroke-width="2.5"/>
+    <text x="76" y="66" fill="#dfe9b2" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" letter-spacing="2.2">BACKEND DEVELOPER</text>
+    <text x="35" y="149" fill="#fff3df" font-family="Georgia, 'Times New Roman', serif" font-size="72" letter-spacing="-3.4">Reza Mardani<tspan fill="#f7a381">.</tspan></text>
+    <text x="40" y="192" fill="#e0d3cb" font-family="Arial, Helvetica, sans-serif" font-size="21">Python · Django · Bot APIs</text>
   </g>
+  <rect x=".5" y=".5" width="839" height="240" rx="15" fill="none" stroke="#564954"/>
 </svg>

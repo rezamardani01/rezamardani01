@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="176" viewBox="0 0 360 176" role="img" aria-labelledby="title desc">
+  <title id="title">Reza Mardani · Backend developer</title>
+  <desc id="desc">A copper planet with an engraved surface and a pale green orbit.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2=".2" gradientUnits="objectBoundingBox"><stop stop-color="#211f29"/><stop offset="1" stop-color="#342934"/></linearGradient>
+    <linearGradient id="surface" x1="0" y1=".2" x2="1" y2=".78"><stop stop-color="#ffcb98"/><stop offset=".52" stop-color="#e28d70"/><stop offset="1" stop-color="#ad5960"/></linearGradient>
+    <pattern id="stars" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".85" fill="#a18b91" opacity=".52"/></pattern>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#553241"/></pattern>
+    <clipPath id="disc"><circle r="76.5"/></clipPath>
+    <clipPath id="frame"><rect width="360" height="176" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="360" height="176" fill="url(#sky)"/>
+    <path d="M191 0H360V176H216Z" fill="url(#stars)"/>
+    <circle cx="287" cy="91" r="82" fill="none" stroke="#786775" stroke-dasharray="1 6"/>
+    <path d="M329 22h8m-4-4v8M205 148h6m-3-3v6" stroke="#c7b9ad"/>
+    <g transform="translate(289 93) rotate(-22) scale(.57)">
+    <ellipse rx="136" ry="38" fill="none" stroke="#cabbab" stroke-width="1.5"/>
+    <circle r="77" fill="url(#surface)" stroke="#ffd1af" stroke-width="1.5"/>
+    <g clip-path="url(#disc)">
+      <path d="M-22-88C50-64 51 54-9 87H91V-90Z" fill="#803f4e" opacity=".55"/>
+      <path d="M-9-82C55-46 54 42-3 84H90V-84Z" fill="url(#grain)"/>
+      <g fill="none" stroke="#673b49" stroke-width="1.4" opacity=".82">
+        <path d="M-78-52Q-17-17 75-46M-83-32Q-13 9 82-24M-83-11Q-9 35 84-5M-83 10Q-7 57 80 17M-79 32Q-1 75 74 36M-65 53Q6 88 65 52"/>
+        <path d="M-25-78C-65-35-67 24-35 71M-11-80C-40-45-44 39-16 80M5-79C-7-44-12 40 4 80M19-78C35-41 35 45 22 78M31-74C73-37 68 34 43 65"/>
+      </g>
+      <path d="M-68-24Q-60-48-36-63" fill="none" stroke="#ffe0b8" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    </g>
+    <path d="M-136 0C-136 22-75 38 0 38S136 22 136 0" fill="none" stroke="#302731" stroke-width="5.5"/>
+    <path d="M-136 0C-136 22-75 38 0 38S136 22 136 0" fill="none" stroke="#dfeca8" stroke-width="2.6"/>
+    <circle cx="103" cy="25" r="5" fill="#dfeca8" stroke="#29252e" stroke-width="1.7"/>
+    </g>
+    <path d="M18 24h13" stroke="#efad8d" stroke-width="2.5"/>
+    <text x="38" y="29" fill="#dfe9b2" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold">Backend developer</text>
+    <g fill="#fff3df" font-family="Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-2">
+      <text x="16" y="82">Reza</text>
+      <text x="16" y="129">Mardani<tspan fill="#f7a381">.</tspan></text>
+    </g>
+    <text x="19" y="156" fill="#e0d3cb" font-family="Arial, Helvetica, sans-serif" font-size="15">Python · Django · Bot APIs</text>
+  </g>
+  <rect x=".5" y=".5" width="359" height="175" rx="15" fill="none" stroke="#564954"/>
+</svg>

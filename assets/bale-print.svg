@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464 198" font-family="Arial, sans-serif"><rect width="464" height="198" rx="14" fill="#bfe9cf"/><circle cx="395" cy="54" r="88" fill="none" stroke="#272730" stroke-opacity=".18"/><g transform="translate(300 2) scale(.84)" fill="#bfe9cf" stroke="#28252d" stroke-width="4" stroke-linejoin="round"><path d="M32 40h104v66H81l-28 24v-24H32z"/><path d="M77 18h91v65h-17v22l-27-22H77z"/><path d="m99 52 12 10 26-24"/></g><g fill="#28252d"><text x="24" y="38" font-family="monospace" font-size="14">PYTHON / MESSAGING</text><text x="22" y="132" font-family="Georgia,serif" font-weight="bold" font-size="44">Baleropy</text><path d="M24 148h416" stroke="#28252d" opacity=".5"/><text x="24" y="178" font-size="20">Python library for Bale bots</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="217" viewBox="0 0 416 217" role="img" aria-labelledby="title desc">
+  <title id="title">Baleropy</title>
+  <desc id="desc">Bot framework. Build Bale bots with typed, async message handlers.</desc>
+  <style>
+    :root { --paper: #c9e7d7; --shade: #68a68c; --ink: #23483e; --light: #edf6de; }
+    .tag { font: bold 16px Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+    .copy { font: 21px Arial, Helvetica, sans-serif; }
+    @media (max-width: 285px) { .tag { font-size: 17px; } .copy { font-size: 23px; } }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x="3" y=".7" width="410" height="211.6" rx="14"/></clipPath>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".85" fill="#23483e" opacity=".24"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="416" height="214" fill="#c9e7d7"/>
+    <ellipse cx="374" cy="10" rx="119" ry="94" fill="#afd7c4"/>
+    <path d="M276 0h140v87c-67-1-116-24-140-87Z" fill="url(#dots)"/>
+    <path d="M253 0c3 49 48 95 118 102" fill="none" stroke="#23483e" stroke-opacity=".22"/>
+    <path d="M23 35h12" stroke="#23483e" stroke-width="2.6"/>
+    <text x="43" y="40" class="tag" fill="#23483e">BOT FRAMEWORK</text>
+    <g transform="translate(268 6)" stroke="#23483e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1 65h20q6 0 6-6v-7m91-31h14m-3-5 5 5-5 5" fill="none" stroke-dasharray="3 4"/>
+      <path d="M16 20q0-6 6-6h65q6 0 6 6v33q0 6-6 6H44L28 73V59h-6q-6 0-6-6Z" fill="var(--ink)" stroke="var(--ink)"/>
+      <path d="M12 16q0-6 6-6h65q6 0 6 6v33q0 6-6 6H40L24 69V55h-6q-6 0-6-6Z" fill="var(--shade)"/>
+      <g fill="var(--light)" stroke="none"><circle cx="28" cy="27" r="3"/><circle cx="39" cy="27" r="3"/><circle cx="50" cy="27" r="3"/></g>
+      <path d="M26 40h24" stroke="var(--ink)"/>
+      <path d="M55 40q0-6 6-6h58q6 0 6 6v32q0 6-6 6h-4v13l-17-13H61q-6 0-6-6Z" fill="var(--ink)"/>
+      <path d="M51 36q0-6 6-6h58q6 0 6 6v32q0 6-6 6h-4v13L94 74H57q-6 0-6-6Z" fill="var(--light)"/>
+      <path d="m74 44-8 7 8 7m24-14 8 7-8 7m-10-17-6 21" fill="none" stroke-width="2.7"/>
+    </g>
+    <text x="22" y="122" fill="#25232a" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="-1.9">Baleropy</text>
+    <path d="M24 139h368" stroke="#23483e" stroke-opacity=".30"/>
+    <g class="copy" fill="#2f2c31"><text x="24" y="167">Build Bale bots with typed,</text><text x="24" y="193">async message handlers.</text></g>
+    <g fill="none" stroke="#23483e"><circle cx="373" cy="174" r="18" stroke-opacity=".45"/><path d="m367 180 12-12m-11 0h11v11" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+  <rect x="3" y=".7" width="410" height="211.6" rx="14" fill="none" stroke="#23483e" stroke-opacity=".35"/>
+</svg>
