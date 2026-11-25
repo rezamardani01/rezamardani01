@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="218" viewBox="0 0 420 218" role="img" aria-label="PetHome — a Django e-commerce platform.">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#766D65" fill-opacity=".12"/></pattern>
+    <clipPath id="card"><rect x="4" y="4" width="402" height="198" rx="20"/></clipPath>
+    <style>.round{font-family:"Arial Rounded MT Bold","Trebuchet MS","Nunito",Arial,sans-serif}.mono{font-family:"Cascadia Code","Courier New",monospace}</style>
+  </defs>
+  <rect x="11" y="11" width="402" height="198" rx="21" fill="#28231F"/>
+  <rect x="4" y="4" width="402" height="198" rx="20" fill="#FFF9EF" stroke="#28231F" stroke-width="4"/>
+  <rect x="4" y="4" width="402" height="198" rx="20" fill="url(#dots)" clip-path="url(#card)"/>
+  <rect x="25" y="25" width="64" height="58" rx="16" fill="#FFD4D0" stroke="#28231F" stroke-width="3"/>
+  <path d="M39 54L57 39L75 54V72H62V61H52V72H39V54Z" fill="#FFF9EF" stroke="#28231F" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M46 48C46 44 51 43 57 50C63 43 68 44 68 48C68 52 62 57 57 60C52 57 46 52 46 48Z" fill="#E77968" stroke="#28231F" stroke-width="1.7"/>
+  <text x="25" y="121" fill="#28231F" class="round" font-size="25" font-weight="900">PetHome</text>
+  <text x="25" y="147" fill="#625A53" class="round" font-size="14" font-weight="700">A Django e-commerce platform</text>
+  <text x="25" y="166" fill="#625A53" class="round" font-size="14" font-weight="700">for products, carts, and orders.</text>
+  <rect x="25" y="181" width="130" height="25" rx="10" fill="#FFD4D0" stroke="#28231F" stroke-width="2.5"/>
+  <text x="90" y="198" text-anchor="middle" fill="#28231F" class="mono" font-size="10" font-weight="700" letter-spacing=".4">DJANGO · SHOP</text>
+  <circle cx="367" cy="54" r="18" fill="#FFE3A5" stroke="#28231F" stroke-width="3"/>
+  <path d="M360 54H374M368 48L374 54L368 60" stroke="#28231F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

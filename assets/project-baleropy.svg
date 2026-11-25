@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="218" viewBox="0 0 420 218" role="img" aria-label="Baleropy — Python tools for bots on Bale.">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#F7EBD8" fill-opacity=".12"/></pattern>
+    <clipPath id="card"><rect x="4" y="4" width="402" height="198" rx="20"/></clipPath>
+    <style>.round{font-family:"Arial Rounded MT Bold","Trebuchet MS","Nunito",Arial,sans-serif}.mono{font-family:"Cascadia Code","Courier New",monospace}</style>
+  </defs>
+  <rect x="11" y="11" width="402" height="198" rx="21" fill="#08090B"/>
+  <rect x="4" y="4" width="402" height="198" rx="20" fill="#24252A" stroke="#08090B" stroke-width="4"/>
+  <rect x="4" y="4" width="402" height="198" rx="20" fill="url(#dots)" clip-path="url(#card)"/>
+  <rect x="25" y="25" width="64" height="58" rx="16" fill="#45655B" stroke="#08090B" stroke-width="3"/>
+  <path d="M43 40H71V68H43V40Z" fill="#FFF9EF" stroke="#08090B" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M49 49H65M49 57H61" stroke="#28231F" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="25" y="121" fill="#FFF9EF" class="round" font-size="25" font-weight="900">Baleropy</text>
+  <text x="25" y="147" fill="#D3C9BB" class="round" font-size="14" font-weight="700">A Python library for bots</text>
+  <text x="25" y="166" fill="#D3C9BB" class="round" font-size="14" font-weight="700">on the Bale platform.</text>
+  <rect x="25" y="181" width="116" height="25" rx="10" fill="#45655B" stroke="#08090B" stroke-width="2.5"/>
+  <text x="83" y="198" text-anchor="middle" fill="#FFF9EF" class="mono" font-size="10" font-weight="700" letter-spacing=".7">PYTHON SDK</text>
+  <circle cx="367" cy="54" r="18" fill="#674944" stroke="#08090B" stroke-width="3"/>
+  <path d="M360 54H374M368 48L374 54L368 60" stroke="#FFF9EF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

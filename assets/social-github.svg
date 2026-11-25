@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="58" viewBox="0 0 250 58" role="img" aria-label="GitHub — rezamardani01">
+  <style>.round{font-family:"Arial Rounded MT Bold","Trebuchet MS","Nunito",Arial,sans-serif}</style>
+  <rect x="7" y="8" width="236" height="43" rx="18" fill="#28231F"/>
+  <rect x="4" y="4" width="236" height="43" rx="18" fill="#E4D6F8" stroke="#28231F" stroke-width="4"/>
+  <rect x="18" y="14" width="24" height="23" rx="7" fill="#FFF9EF" stroke="#28231F" stroke-width="2.5"/>
+  <path d="M25 21L21.5 25.5L25 30M35 21L38.5 25.5L35 30" stroke="#28231F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="140" y="32" text-anchor="middle" fill="#28231F" class="round" font-size="16" font-weight="900">@rezamardani01</text>
+</svg>

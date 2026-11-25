@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Who I am — Reza Mardani, backend developer, bot builder, and open-source maker.">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#766D65" fill-opacity=".14"/>
+    </pattern>
+    <clipPath id="card">
+      <rect x="5" y="5" width="1180" height="244" rx="24"/>
+    </clipPath>
+    <style>
+      .round { font-family: "Arial Rounded MT Bold", "Trebuchet MS", "Nunito", Arial, sans-serif; }
+      .mono { font-family: "Cascadia Code", "Courier New", monospace; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="1180" height="244" rx="25" fill="#28231F"/>
+  <rect x="5" y="5" width="1180" height="244" rx="24" fill="#FFF9EF" stroke="#28231F" stroke-width="4"/>
+  <rect x="5" y="5" width="1180" height="244" rx="24" fill="url(#dots)" clip-path="url(#card)"/>
+  <rect x="43" y="33" width="180" height="35" rx="14" fill="#C9E9DF" stroke="#28231F" stroke-width="3"/>
+  <text x="133" y="56" text-anchor="middle" fill="#28231F" class="mono" font-size="13" font-weight="700" letter-spacing="1">WHO I AM</text>
+  <text x="43" y="116" fill="#28231F" class="round" font-size="39" font-weight="900">Backend developer</text>
+  <text x="43" y="151" fill="#625A53" class="round" font-size="18" font-weight="700">I build useful software, bots, and tools for messaging platforms.</text>
+  <rect x="47" y="184" width="151" height="38" rx="15" fill="#28231F"/>
+  <rect x="43" y="180" width="151" height="38" rx="15" fill="#C8E4F6" stroke="#28231F" stroke-width="3"/>
+  <text x="118" y="207" text-anchor="middle" fill="#28231F" class="round" font-size="14" font-weight="900">BACKEND</text>
+  <rect x="215" y="184" width="194" height="38" rx="15" fill="#28231F"/>
+  <rect x="211" y="180" width="194" height="38" rx="15" fill="#FFE3A5" stroke="#28231F" stroke-width="3"/>
+  <text x="308" y="207" text-anchor="middle" fill="#28231F" class="round" font-size="14" font-weight="900">BOTS &amp; PLATFORMS</text>
+  <rect x="426" y="184" width="174" height="38" rx="15" fill="#28231F"/>
+  <rect x="422" y="180" width="174" height="38" rx="15" fill="#E4D6F8" stroke="#28231F" stroke-width="3"/>
+  <text x="509" y="207" text-anchor="middle" fill="#28231F" class="round" font-size="14" font-weight="900">OPEN SOURCE</text>
+  <rect x="831" y="45" width="303" height="158" rx="20" fill="#FFFDF8" stroke="#28231F" stroke-width="4"/>
+  <rect x="847" y="60" width="111" height="27" rx="10" fill="#FFD4D0"/>
+  <text x="902" y="78" text-anchor="middle" fill="#625A53" class="mono" font-size="12" font-weight="700">~/approach</text>
+  <circle cx="865" cy="112" r="6" fill="#E77968" stroke="#28231F" stroke-width="2"/>
+  <text x="883" y="118" fill="#28231F" class="round" font-size="15" font-weight="800">Stay curious</text>
+  <circle cx="865" cy="148" r="6" fill="#7BB8D9" stroke="#28231F" stroke-width="2"/>
+  <text x="883" y="154" fill="#28231F" class="round" font-size="15" font-weight="800">Build with care</text>
+  <circle cx="865" cy="184" r="6" fill="#8CC9AE" stroke="#28231F" stroke-width="2"/>
+  <text x="883" y="190" fill="#28231F" class="round" font-size="15" font-weight="800">Share the work</text>
+</svg>
