@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 332" role="img" aria-labelledby="title">
+  <title id="title">Reza Mardani · Backend developer</title>
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#655861"/></pattern>
+    <clipPath id="frame"><rect width="960" height="332" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="332" fill="#211e28"/>
+    <rect x="560" width="400" height="332" fill="url(#grid)"/>
+    <g transform="translate(738 169) rotate(-25)" fill="none" stroke="#ff9979" stroke-width="2">
+      <ellipse rx="118" ry="118"/><ellipse rx="94" ry="118"/><ellipse rx="63" ry="118"/><ellipse rx="27" ry="118"/>
+      <ellipse rx="118" ry="80"/><ellipse rx="118" ry="43"/><path d="M-118 0h236"/>
+      <ellipse rx="171" ry="33" stroke="#d7e891" transform="rotate(8)"/>
+      <circle cx="168" cy="22" r="6" fill="#d7e891" stroke="none"/>
+    </g>
+    <g fill="#fff2de" font-family="Georgia, serif" font-size="84" letter-spacing="-4">
+      <text x="48" y="132">Reza</text><text x="48" y="213">Mardani<tspan fill="#ff9979">.</tspan></text>
+    </g>
+    <path d="M52 252h36" stroke="#d7e891" stroke-width="3"/>
+    <text x="102" y="259" fill="#d7e891" font-family="monospace" font-size="18" letter-spacing="2">BACKEND DEVELOPER</text>
+  </g>
+</svg>
